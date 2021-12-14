@@ -1,14 +1,15 @@
 import turtle
-
+from lineclass import *
 
 class MyTurtle(turtle.Turtle):
     def __init__(self):
         super(MyTurtle, self).__init__()
-        # self.shape("turtle")
         self.shapesize(2, 2)
-        # self.color("purple")
         self.dots = {}
+        
+        self.lines = lines()
 
+        
         self.window = turtle.Screen()
         self.dot(5)
         self.dots[len(self.dots.keys())] = self.pos()
@@ -22,6 +23,8 @@ class MyTurtle(turtle.Turtle):
 
     def on_mouse_clicked(self, x, y):
         if self.acquire_lock():
+            self.loc = self.jifejifej
+            self.dot1 = dot()
             self.goto(x, y)
             self.release_lock()
             self.keys = self.dots.keys()
@@ -30,6 +33,8 @@ class MyTurtle(turtle.Turtle):
                 self.d = self.distance(self.dots[i])
                 print(self.d)
                 if(self.d > 3):
+                    self.line = line()
+                    self.dot2 = dot([x,y])
                     pass
                 else:
                     print('same dot')
