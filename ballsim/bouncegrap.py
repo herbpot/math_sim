@@ -17,6 +17,8 @@ for i in range(80) :
 b = []
 for i in range(len(ballhights)):
     b.append(i)
-plt.plot(ballhights,b)
+plt.plot(ballhights,b,c='red')
+plt.scatter(ballhights,b)
+
 # plt.xlim(0,1000)
 plt.show()
