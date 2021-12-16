@@ -1,6 +1,10 @@
 import matplotlib.pyplot as plt
 import math
 
+print('''
+시그마를 통해 제논의 역설에서 목적지 까지의 남은 거리를 표현한 그래프 입니다 
+''')
+
 def sigma(x):
     ret = 0
     c = []
