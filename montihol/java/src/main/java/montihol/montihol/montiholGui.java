@@ -32,7 +32,7 @@ public class montiholGui {
             "당신이 고른 문에서 자동차가 있을 확률은 1%이다. 하지만 나머지 문에 자동차가 있을 확률은 99%이다. 따라서 몬티홀 문제는 문을 바꾸는 것이 당첨 확률이 높다"));
         item4.setItemMeta(meta);
         //0 1. 2 3 4. 5 6 7. 8
-        inven.setItem(13, item4);
+        inv.setItem(13, item4);
         inv.setItem(1,item1);
         inv.setItem(4,item2);
         inv.setItem(7,item3);

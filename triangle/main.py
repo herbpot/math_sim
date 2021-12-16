@@ -8,6 +8,7 @@ class T(t.Turtle):
         self.window = t.Screen()
         self.lines = []
         self.degree2 = 0
+        self.cy = -1
         self.dot_ = self.position()
         self.on_mouse_clicked(1,1)
         self.window.onclick(self.on_mouse_clicked)
@@ -22,6 +23,7 @@ class T(t.Turtle):
         self.goto(x,y)
         self.set_dot(self.deg,self.dis)
         self.degree2 = self.degree1
+        self.cy += 1
 
 
     def on_keypress(self):

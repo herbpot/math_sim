@@ -15,7 +15,7 @@ plus = '''제논의 역설은 거북이가 먼저 출발하면 아무리 빠른 
 아킬레스가 112m를 뛰는 것은 할 수 있을테니 아킬레스는 거북이를 잡을 수 있습니다.'''
 
 while True:
-    ans = str(input("제논의 역설에 대한 설명이 필요하신가요?(y/n)"))
+    ans = str(input("제논의 역설에 대한 설명이 필요하신가요?(y/n) >>>"))
     if ans == 'y':
         print(plus)
         sleep(10)
@@ -36,9 +36,10 @@ def sigma(x):
 
 
 b = []
-
-for i in range(5,1000):
-        b.append(i/100*100*(1/10))
+i = 0
+while (100*(1/10)**i) > 5e-324:
+    b.append((100*(1/10)**i))
+    i += 1
 
 d = sigma(b)
 a = []
@@ -46,7 +47,9 @@ a = []
 for i in range(len(b)):
     a.append(i)
 
-plt.plot(a,b)
-plt.ylim(0,300)
-plt.xlim(0,a[-1])
+plt.scatter(a,b)
+plt.plot(a,b,c='green')
+plt.text(a[-1],b[-1],b[-1])
+plt.ylim(-5,b[0]+10)
+plt.xlim(-5,a[-1])
 plt.show()
