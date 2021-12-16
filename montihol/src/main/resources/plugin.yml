@@ -1,0 +1,4 @@
+name: Montihol
+version: '${project.version}'
+main: montihol.montihol.Montihol
+api-version: 1.17
