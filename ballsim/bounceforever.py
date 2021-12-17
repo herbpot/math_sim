@@ -20,8 +20,8 @@ b = []
 for i in range(len(ballhights)):
     b.append(i)
 
-print(ballhights)
-print(b)
+# print(ballhights)
+# print(b)
 plt.xlim(0,100)#len(b)
 ax.xaxis.set_major_locator(ticker.MultipleLocator(5))
 ax.yaxis.set_major_locator(ticker.MultipleLocator(5))
@@ -29,4 +29,5 @@ ax.xaxis.set_minor_locator(ticker.MultipleLocator(1))
 ax.yaxis.set_minor_locator(ticker.MultipleLocator(1))
 plt.plot(b,ballhights,c='red')
 plt.scatter(b,ballhights)
+plt.text(b[-1],ballhights[-1],ballhights[-1])
 plt.show()
