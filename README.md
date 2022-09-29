@@ -12,7 +12,8 @@
 <h2> 공 튕기기 시뮬레이션 </h2>
 <p>
 공이 튕겨 올라갈 때마다 공이 튀어오르는 정도에 따라 튀어오르는 높이가 감소하는 모습을 수열의 일반항으로 정리한 뒤 이를 그래프를 통해 나타내었습니다<br/>
-[코드 보러가기](https://github.com/WhiteHerb/math_sim/blob/802e786f3f4b370bfbadc3f624afcd0249410c00/ballsim/bounce.py)
+
+[코드](https://github.com/WhiteHerb/math_sim/blob/802e786f3f4b370bfbadc3f624afcd0249410c00/ballsim/bounce.py)
 </p>
 
 <h2> 삼각형 넓이 구하기 </h2><br/>
@@ -21,7 +22,8 @@ Turtle을 통해 gui를 제작하였고 사용하가 삼각형을 그린 뒤 숫
 작동 순서 :<br/>
 1. Turtle의 gui를 누를떄마다 원래 위치에서 마우스가 눌린 위치까지의 각도를 구한 뒤 마우스가 눌린 위치로 이동하고 원래 점에서 지금 점까지의 길이를 구한 뒤 각도, 길이 정보를 저장합니다<br/>
 2. 1번 과정을 3번 반복한 뒤 세 선중 하나의 각도와 이웃한 두 변의 길이를 통해 삼각형의 넓이를 구합니다 ( sinA * l1 * l2 / 2 )<br/>
-[코드 보러가기](https://github.com/WhiteHerb/math_sim/blob/802e786f3f4b370bfbadc3f624afcd0249410c00/triangle/main.py)
+
+[코드](https://github.com/WhiteHerb/math_sim/blob/802e786f3f4b370bfbadc3f624afcd0249410c00/triangle/main.py)
 </p>
 <br/>
 
@@ -38,8 +40,8 @@ Turtle을 통해 gui를 제작하였고 사용하가 삼각형을 그린 뒤 숫
 물론 우리는 이러한 상황이 말도 안되는 일이라는 것을 알지만, 이것이 틀렸음을 수학적으로 증명하는 것이 불가능하기 때문에 이를 역설이라고 부릅니다.<br/>
 <br/>
 
-이번에 만든 프로그램은 제논의 역설에서 사람이 뛰어가는 거리를 그래프로 나타내었습니다
-[코드 보러가기](https://github.com/WhiteHerb/math_sim/blob/5607e0abbdc564e1748de7191b10bb19c4ed3520/grap/zanon.py)
+이번에 만든 프로그램은 제논의 역설에서 사람이 뛰어가는 거리를 그래프로 나타내었습니다<br/>
+[코드](https://github.com/WhiteHerb/math_sim/blob/5607e0abbdc564e1748de7191b10bb19c4ed3520/grap/zanon.py)
 </p><br/>
 
 2022/06/20 업데이트<br>
