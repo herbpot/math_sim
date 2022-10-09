@@ -68,7 +68,7 @@ Turtle을 통해 gui를 제작하였고 사용하가 삼각형을 그린 뒤 숫
 반면에 당신이 선텍을 바꾸지 않는다면 처음 뽑을때 당첨을 뽑아야 하므로 1/3입니다.
 따라서 이 문제는 "선텍을 바꾼다"가 당첨될 확률이 더 높습니다
 
-아래는 몬티홀 문제를 플레이 할 수 있도록 만든 마크 플러그인과 파이썬 시뮬레이션 코드입니다 </br>
-[몬티홀 시뮬레이션](https://github.com/WhiteHerb/math_sim/blob/918aff672398de8e56887639aca10b8d0d9aad74/montihol/montihol.py)</br>
-[몬티홀 플러그인](https://github.com/WhiteHerb/math_sim/blob/cc3d9336d34d7a98d67ff7d1517b5908fef59065/montihol/montihol.jar)</br>
+아래는 몬티홀 문제를 플레이 할 수 있도록 만든 마크 플러그인과 파이썬 시뮬레이션 코드입니다 <br/>
+[몬티홀 시뮬레이션](https://github.com/WhiteHerb/math_sim/blob/918aff672398de8e56887639aca10b8d0d9aad74/montihol/montihol.py)<br/>
+[몬티홀 플러그인](https://github.com/WhiteHerb/math_sim/blob/cc3d9336d34d7a98d67ff7d1517b5908fef59065/montihol/montihol.jar)<br/>
 </p>
